@@ -4,27 +4,32 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		
-		<meta name="description" content="I do things. Design and development, online and offline.">
-		<meta name="keywords" content="Robin,Bisping,Switzerland,Offline,Online,Design,Layout,Webdesign,Printdesign,Development,Programming,User experience">
+		<meta name="description" content="I'm Robin Bisping. I design and develop. For web and print; online and offline.">
+		<meta name="keywords" content="Robin,Bisping,Switzerland,Offline,Online,Design,Layout,Webdesign,Printdesign,Development,Programming,Interface">
 		<meta name="author" content="Robin Bisping">
-		
+
+		<meta property="og:site_name" content="Robin Bisping">
+		<meta property="og:description" content="I'm Robin Bisping. I design and develop. For web and print; online and offline.">
+		<meta property="og:locale" content="en_GB">
+		<meta property="og:image" content="./img/robinbisping.jpg">
+		<meta property="og:image:type" content="image/jpeg">
+		<meta property="og:image:width" content="1200">
+		<meta property="og:image:height" content="630">
+
 		<title>Robin Bisping</title>
-		
-		<!--<base href="http://robinbisping.com/">-->
-		
+
 		<link href="./css/reset.css" rel="stylesheet" type="text/css">
 		<link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100|Roboto+Slab" rel="stylesheet" type="text/css">
 		<link href="./genericons/genericons.css" rel="stylesheet" type="text/css">
 		<link href="./css/styles.css" rel="stylesheet" type="text/css">
-		
+
 		<link rel="shortcut icon" href="./img/favicon.ico">
 		<link rel="icon" type="image/png" href="./img/favicon.png">
 	</head>
 	<body>
 		<div class="column one">
 			<figure>
-				<img src="./img/robinbisping.jpg" alt="Portrait of Robin Bisping" title="Portrait of Robin Bisping" />
+				<img src="./img/robinbisping-avatar.jpg" alt="Portrait of Robin Bisping" title="Portrait of Robin Bisping" />
 			</figure>
 			<a id="email" href="mailto:hello@robinbisping.com" title="Email Robin Bisping">hello@robinbisping.com</a>
 			<ul id="social-media">
