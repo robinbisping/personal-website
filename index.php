@@ -11,7 +11,7 @@
 		<meta property="og:site_name" content="Robin Bisping">
 		<meta property="og:description" content="I'm Robin Bisping. I design and develop. For web and print; online and offline.">
 		<meta property="og:locale" content="en_GB">
-		<meta property="og:image" content="./img/robinbisping.jpg">
+		<meta property="og:image" content="http://robinbisping.com/img/robinbisping.jpg">
 		<meta property="og:image:type" content="image/jpeg">
 		<meta property="og:image:width" content="1200">
 		<meta property="og:image:height" content="630">
