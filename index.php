@@ -74,11 +74,11 @@
 			</ul>
 		</div>
 		<div class="column two">
-			<p>I design and develop. For web and print; online and offline.</p>
+			<p>I design and develop. For web and print &dash; online and offline.</p>
 			<ul id="additional-links">
-				<li><a href="#" title="View Robin Bisping's portfolio" class="button">View portfolio</a></li>
-				<li><a href="http://archive.robinbisping.com/" title="Visit Robin Bisping's archive">Visit archive</a></li>
-				<li><a href="http://labs.robinbisping.com/" title="Explore Robin Bisping's labs">Explore labs</a></li>
+				<li><a href="#" title="Download Robin Bisping's portfolio" class="button">Download portfolio</a></li>
+				<li><a href="http://archive.robinbisping.com/" title="Visit Robin Bisping's archive" target="_blank">Visit archive</a></li>
+				<li><a href="http://labs.robinbisping.com/" title="Explore Robin Bisping's labs" target="_blank">Explore labs</a></li>
 			</ul>
 		</div>
 	</body>
