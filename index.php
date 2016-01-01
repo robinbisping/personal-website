@@ -74,7 +74,7 @@
 			</ul>
 		</div>
 		<div class="column two">
-			<p>I design and develop. For web and print &dash; online and offline.</p>
+			<p>I design and develop. For web and print &ndash; online and offline.</p>
 			<ul id="additional-links">
 				<li><a href="#" title="Download Robin Bisping's portfolio" class="button">Download portfolio</a></li>
 				<li><a href="http://archive.robinbisping.com/" title="Visit Robin Bisping's archive" target="_blank">Visit archive</a></li>
