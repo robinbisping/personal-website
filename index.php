@@ -4,14 +4,14 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="description" content="I'm Robin Bisping. I design and develop. For web and print; online and offline.">
+		<meta name="description" content="My name is Robin Bisping. I design and develop. For web and print &ndash; online and offline.">
 		<meta name="keywords" content="Robin,Bisping,Switzerland,Offline,Online,Design,Layout,Webdesign,Printdesign,Development,Programming,Interface">
 		<meta name="author" content="Robin Bisping">
 
 		<meta property="og:locale" content="en_GB">
 		<meta property="og:site_name" content="Robin Bisping">
 		<meta property="og:title" content="Robin Bisping">
-		<meta property="og:description" content="I'm Robin Bisping. I design and develop. For web and print; online and offline.">
+		<meta property="og:description" content="My name is Robin Bisping. I design and develop. For web and print &ndash; online and offline.">
 		<meta property="og:url" content="http://robinbisping.com/">
 		<meta property="og:image" content="http://robinbisping.com/img/robinbisping.jpg">
 		<meta property="og:image:type" content="image/jpeg">
