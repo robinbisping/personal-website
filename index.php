@@ -6,7 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="description" content="My name is Robin Bisping. I design and develop. For web and print &ndash; online and offline.">
 		<meta name="keywords" content="Robin,Bisping,Switzerland,Offline,Online,Design,Layout,Webdesign,Printdesign,Development,Programming,Interface">
-		<meta name="author" content="Robin Bisping">
+		<meta name="author" content="Robin Bisping">blablablub
 
 		<meta property="og:locale" content="en_GB">
 		<meta property="og:site_name" content="Robin Bisping">
