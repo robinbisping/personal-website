@@ -77,7 +77,7 @@
 			<p>I design and develop. For web and print &ndash; online and offline.</p>
 			<ul id="additional-links">
 				<li><a href="https://www.dropbox.com/s/9agzbsfk6x1mafi/Portfolio%20%E2%80%93%20Robin%20Bisping.pdf?dl=1" download title="Download Robin Bisping's portfolio" class="button">Download portfolio</a></li>
-				<li><a href="https://archive.robinbisping.com/" title="Visit Robin Bisping's archive" target="_blank">Visit archive</a></li>
+				<li><a href="https://archive.robinbisping.com/" title="Visit Robin Bisping's archive">Visit archive</a></li>
 			</ul>
 		</div>
 	</body>
