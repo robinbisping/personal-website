@@ -76,8 +76,8 @@
 		<div class="column two">
 			<p>I design and develop. For web and print &ndash; online and offline.</p>
 			<ul id="additional-links">
-				<li><a href="https://www.dropbox.com/s/9agzbsfk6x1mafi/Portfolio%20%E2%80%93%20Robin%20Bisping.pdf" title="Robin Bisping's portfolio" class="button">Design portfolio</a></li>
-				<li><a href="https://archive.robinbisping.com/" title="Visit Robin Bisping's archive">Visit archive</a></li>
+				<li><a href="https://www.dropbox.com/s/9agzbsfk6x1mafi/Portfolio%20%E2%80%93%20Robin%20Bisping.pdf" title="Visit Robin Bisping's portfolio" class="button">Visit design portfolio</a></li>
+				<li><a href="https://archive.robinbisping.com/" title="Explore Robin Bisping's archive">Explore archive</a></li>
 			</ul>
 		</div>
 	</body>
