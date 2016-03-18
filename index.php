@@ -66,9 +66,9 @@
 					</a>
 				</li>
 				<li>
-					<a href="https://github.com/robinbisping" title="Robin Bisping on Github" target="_blank">
-						<span class="genericon genericon-github"></span>
-						<span class="sr-only">Github</span>
+					<a href="https://www.youtube.com/channel/UC0gGgP5Nmq0l9pv3Qjh3XWg" title="Robin Bisping on Youtube" target="_blank">
+						<span class="genericon genericon-youtube"></span>
+						<span class="sr-only">Youtube</span>
 					</a>
 				</li>
 			</ul>
@@ -76,7 +76,7 @@
 		<div class="column two">
 			<p>I design and develop. For web and print &ndash; online and offline.</p>
 			<ul id="additional-links">
-				<li><a href="https://www.dropbox.com/s/9agzbsfk6x1mafi/Portfolio%20%E2%80%93%20Robin%20Bisping.pdf?dl=1" download title="Download Robin Bisping's portfolio" class="button">Download portfolio</a></li>
+				<li><a href="https://www.dropbox.com/s/9agzbsfk6x1mafi/Portfolio%20%E2%80%93%20Robin%20Bisping.pdf" title="Robin Bisping's portfolio" class="button">Design portfolio</a></li>
 				<li><a href="https://archive.robinbisping.com/" title="Visit Robin Bisping's archive">Visit archive</a></li>
 			</ul>
 		</div>
