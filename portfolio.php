@@ -9,6 +9,8 @@
 
 		<title>Portfolio - Robin Bisping</title>
 
+		<base href="https://www.robinbisping.com/">
+
 		<link rel="stylesheet" href="./css/reveal.css">
 		<link rel="stylesheet" href="./css/portfolio.css">
 
@@ -18,8 +20,6 @@
 
 		<link rel="shortcut icon" href="./img/favicon.ico">
 		<link rel="icon" type="image/png" href="./img/favicon.png">
-
-		<base href="https://www.robinbisping.com/">
 	</head>
 
 	<body>
