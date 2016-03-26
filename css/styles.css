@@ -25,6 +25,9 @@ img {
 	width: 150px;
 	border-radius: 75px;
 }
+p {
+	line-height: 1.1;
+}
 p:before, p:after {
 	display: block;
 	margin: 20px;
