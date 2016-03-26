@@ -18,6 +18,8 @@
 
 		<link rel="shortcut icon" href="./img/favicon.ico">
 		<link rel="icon" type="image/png" href="./img/favicon.png">
+
+		<base href="https://www.robinbisping.com/">
 	</head>
 
 	<body>
