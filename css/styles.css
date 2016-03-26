@@ -20,13 +20,13 @@ a:hover {
 	width: 100%;
 	float: left;
 }
+.column.two {
+	line-height: 1.1;
+}
 img {
 	height: 150px;
 	width: 150px;
 	border-radius: 75px;
-}
-p {
-	line-height: 1.1;
 }
 p:before, p:after {
 	display: block;
