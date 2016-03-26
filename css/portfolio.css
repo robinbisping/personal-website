@@ -1,0 +1,40 @@
+body {
+    background-color: #090909;
+}
+.reveal .controls .navigate-left,
+.reveal .controls .navigate-left.enabled {
+    border-right-color: #f3f3f3;
+}
+.reveal .controls .navigate-right,
+.reveal .controls .navigate-right.enabled {
+    border-left-color: #f3f3f3;
+}
+.reveal .controls .navigate-up,
+.reveal .controls .navigate-up.enabled {
+    border-bottom-color: #f3f3f3;
+}
+.reveal .controls .navigate-down,
+.reveal .controls .navigate-down.enabled {
+    border-top-color: #f3f3f3;
+}
+.reveal .controls .navigate-left.enabled:hover {
+    border-right-color: #a3a3a3;
+}
+.reveal .controls .navigate-right.enabled:hover {
+    border-left-color: #a3a3a3;
+}
+.reveal .controls .navigate-up.enabled:hover {
+    border-bottom-color: #a3a3a3;
+}
+.reveal .controls .navigate-down.enabled:hover {
+    border-top-color: #a3a3a3;
+}
+.reveal .progress {
+    background: rgba(255, 255, 255, 0.2);
+}
+.reveal .progress span {
+    background: #f3f3f3;
+    -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+    -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+    transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+}
