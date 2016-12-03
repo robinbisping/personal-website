@@ -73,7 +73,7 @@
 			<p>I design and develop. For web and print &ndash; online and offline.</p>
 			<ul id="additional-links">
 				<li><a href="./portfolio/" title="View Robin Bisping's portfolio" class="button">View portfolio</a></li>
-				<li><a href="https://archive.robinbisping.com/" title="Explore Robin Bisping's archive">Explore archive</a></li>
+				<li><a href="mailto:hello@robinbisping.com" title="Email Robin Bisping">Contact me</a></li>
 			</ul>
 		</div>
 	</body>
