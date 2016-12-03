@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -27,21 +28,8 @@
 
 		<link rel="shortcut icon" href="./img/favicon.ico">
 		<link rel="icon" type="image/png" href="./img/favicon.png">
-
-		<script type="text/javascript">
-			var _paq = _paq || [];
-				_paq.push(['trackPageView']);
-				_paq.push(['enableLinkTracking']);
-				(function() {
-					var u="//admin.bisping.ch/analytics/";
-					_paq.push(['setTrackerUrl', u+'piwik.php']);
-					_paq.push(['setSiteId', 1]);
-					var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-					g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-				})();
-		</script>
-		<noscript><p><img src="//admin.bisping.ch/analytics/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
 	</head>
+
 	<body>
 		<div class="column one">
 			<figure>
@@ -79,12 +67,6 @@
 						<span class="sr-only">Flickr</span>
 					</a>
 				</li>
-				<li>
-					<a href="https://www.youtube.com/channel/UC0gGgP5Nmq0l9pv3Qjh3XWg" title="Robin Bisping on Youtube" target="_blank">
-						<span class="genericon genericon-youtube"></span>
-						<span class="sr-only">Youtube</span>
-					</a>
-				</li>
 			</ul>
 		</div>
 		<div class="column two">
@@ -95,4 +77,5 @@
 			</ul>
 		</div>
 	</body>
+
 </html>
