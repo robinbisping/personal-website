@@ -5,8 +5,9 @@ html  {
 body {
 	padding: 0 5%;
 	background-color: #f3f3f3;
+	text-align: center;
+	font-family: 'Roboto Slab', sans-serif;
 	color: #090909;
-	clear: both;
 }
 a {
 	color: #090909;
@@ -16,22 +17,15 @@ a:hover {
 	opacity: 0.75;
 	filter: alpha(opacity=75);
 }
-.column {
-	width: 100%;
-	float: left;
-}
-.column.two {
-	line-height: 1.1;
-}
 img {
 	height: 150px;
 	width: 150px;
 	border-radius: 75px;
 }
-p:before, p:after {
-	display: block;
-	margin: 20px;
-	content: '\2015';
+p {
+	margin: 40px 0;
+	font-size: 24px;
+	line-height: 1.3;
 }
 .sr-only {
     width: 1px;
@@ -46,46 +40,12 @@ p:before, p:after {
 ul li {
 	display: inline-block;
 }
-
-/* All */
-.column.one {
-	text-align: center;
-	font-family: 'Roboto', sans-serif;
-	font-size: 25px;
-	font-weight: 100;
-}
-.column.two {
-	text-align: center;
-	font-family: 'Roboto Slab', serif;
-	font-size: 40px;
-}
-#email {
-	display: block;
-	margin: 25px 0;
-}
 #social-media li {
-	margin: 0 5px;
+	margin: 0 7px;
 }
 #social-media .genericon {
 	float: left;
 	font-size: 20px;
-}
-#additional-links {
-	margin-top: 10px;
-}
-#additional-links a {
-	display: inline-block;
-	padding: 8px 16px;
-	border-radius: 25px;
-	border: solid 1px #090909;
-	font-family: 'Roboto', sans-serif;
-	font-size: 15px;
-	font-weight: 300;
-}
-#additional-links a.button {
-	background-color: #377ec5;
-	border-color: #377ec5;
-	color: #f3f3f3;
 }
 
 /* Small */
@@ -93,16 +53,20 @@ ul li {
 	html  {
 		padding: 40px 0;
 	}
+	p {
+		margin: 40px 20%;
+		font-size: 30px;
+	}
 	img {
 		height: 200px;
 		width: 200px;
 		border-radius:100px;
 	}
-	.column.one {
-		font-size: 30px;
+	#social-media li {
+		margin: 0 10px;
 	}
-	.column.two {
-		font-size: 50px;
+	#social-media .genericon {
+		font-size: 25px;
 	}
 }
 
@@ -111,61 +75,16 @@ ul li {
 	html  {
 		padding: 50px 0;
 	}
-	.column.one {
-		font-size: 40px;
-	}
-	.column.two {
-		line-height: 1.2;
-		font-size: 65px;
-	}
-	#email {
-		margin: 30px 0;
-	}
-	#social-media li {
-		margin: 0 10px;
-	}
-	#social-media .genericon {
-		font-size: 25px;
-	}
-	#additional-links a {
-		padding: 10px 20px;
-		font-size: 20px;
-		font-weight: 400;
-	}
 }
 
 /* Large */
 @media (min-width: 1200px) {
-	html {
-		height: 100%;
-		padding: 0;
-	}
-	body {
-		display:flex;
-		height: 100%;
-		align-items:center;
-	}
-	.column.one {
-		width: 40%;
-	}
-	.column.two {
-		width: 60%;
-		padding-left: 5%;
-		text-align: left;
-		font-size: 80px;
+	p {
+		margin: 40px 30%;
 	}
 	img {
 		height: 250px;
 		width: 250px;
 		border-radius:125px;
-	}
-	p:before, p:after {
-		display: none;
-	}
-	#additional-links {
-		margin-top: 0;
-	}
-	#additional-links a {
-		border-width: 2px;
 	}
 }
