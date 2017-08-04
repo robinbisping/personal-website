@@ -24,8 +24,11 @@ a {
 	padding: 5px 10px;
 	border: solid 2px;
 	border-radius: 3px;
-	text-decoration: none;
-	color: inherit;
+	color: #aaa;
+    text-decoration: none;
+}
+a:hover {
+    color: #090909;
 }
 
 /* Small */
