@@ -12,27 +12,40 @@
 		<title>Robin Bisping</title>
 
 		<link href="./css/reset.css" rel="stylesheet" type="text/css">
-		<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet" type="text/css">
-		<link href="./genericons/genericons.css" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet" type="text/css">	
 		<link href="./css/styles.css" rel="stylesheet" type="text/css">
 
-		<link rel="shortcut icon" href="./img/favicon.ico">
 		<link rel="icon" type="image/png" href="./img/favicon.png">
+		
+		<script type="text/javascript" language="javascript">
+            // Email obfuscator script 2.1 by Tim Williams, University of Arizona
+            // Random encryption key feature coded by Andrew Moulden
+            // This code is freeware provided these four comment lines remain intact
+            // A wizard to generate this code is at http://www.jottings.com/obfuscator/
+            coded = "YO0nr@0nVfnrC.ND"
+            key = "NCMKvlb4QZ3ifJ6HIzuRox0sjXmnSqU9TB17OW8Vwtkr5hcgAdayL2PFEepYGD"
+            shift = coded.length
+            link = ""
+            for (i = 0; i < coded.length; i++) {
+                if (key.indexOf(coded.charAt(i)) == -1) {
+                    ltr = coded.charAt(i)
+                    link += ltr
+                }
+                else {     
+                    ltr = (key.indexOf(coded.charAt(i)) - shift + key.length) % key.length
+                    link += key.charAt(ltr)
+                }
+            }
+        </script>
 	</head>
 
 	<body>
 		<figure>
-			<img src="./img/robinbisping-avatar.jpg" alt="Portrait of Robin Bisping" title="Portrait of Robin Bisping" />
+			<img src="./img/robinbisping.jpg" alt="Portrait of Robin Bisping" title="Portrait of Robin Bisping" />
 		</figure>
 		<p><b>Robin Bisping</b> &ndash; a student who is fascinated by technology, design and journalism.</p>
-		<ul id="social-media">
-			<li>
-				<a href="https://github.com/robinbisping" title="Robin Bisping on Github" target="_blank">
-					<span class="genericon genericon-github"></span>
-					<span class="sr-only">Github</span>
-				</a>
-			</li>
-		</ul>
+		<script type="text/javascript" language="javascript">document.write('<a href="mailto:' + link + '">' + link + '</a>')</script>
+        <noscript>You need javascript on to see my email address.</noscript>
 	</body>
 
 </html>
