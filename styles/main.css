@@ -6,9 +6,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-
     background-color: #eee;
-
     font-family: 'Playfair Display', serif;
     line-height: 1.3;
     color: #333;
@@ -30,16 +28,9 @@ h1 {
 
 li {
     list-style: none;
-
     font-size: 2rem;
     font-style: italic;
     color: #aaa;
-
-    transition: color 300ms linear;
-}
-
-li:hover, li:active, li:focus {
-    color: #333;
 }
 
 
