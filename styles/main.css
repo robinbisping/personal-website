@@ -36,7 +36,6 @@ a {
     margin-top: 2rem;
     text-decoration: none;
     color: #333;
-    cursor: pointer;
 }
 
 a:hover, a:active, a:focus {
