@@ -7,7 +7,7 @@ body {
     align-items: center;
     justify-content: center;
     background-color: #eee;
-    font-family: 'Playfair Display', serif;
+    font-family: serif;
     line-height: 1.2;
     color: #333;
 }
@@ -30,7 +30,6 @@ li {
     margin-top: .75rem;
     list-style: none;
     font-size: 2rem;
-    font-style: italic;
     color: #aaa;
 }
 
@@ -38,7 +37,6 @@ a {
     display: inline-block;
     margin-top: 2rem;
     text-decoration: none;
-    font-style: italic;
     color: #333;
     cursor: pointer;
 }
@@ -49,10 +47,6 @@ a:hover, a:active, a:focus {
 
 
 @media (min-width: 600px) {
-    body {
-        line-height: 1.2;
-    }
-
     h1, li {
         font-size: 3rem;
     }
