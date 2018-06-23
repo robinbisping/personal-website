@@ -2,7 +2,6 @@ html, body {
     height: 100%;
     margin: 0;
 }
-
 body {
     display: flex;
     justify-content: center;
@@ -11,41 +10,34 @@ body {
     line-height: 1.2;
     color: #333;
 }
-
 main {
     padding: 10px;
 }
-
 ul {
     margin: 0;
     padding: 0;
 }
-
 img {
     height: 200px;
     width: 200px;
     margin-bottom: 1rem;
 }
-
 h1 {
     margin: 0;
     font-size: 2rem;
 }
-
 li {
     margin-top: .75rem;
     list-style: none;
     font-size: 2rem;
     color: #aaa;
 }
-
 a {
     display: inline-block;
     margin-top: 2rem;
     text-decoration: none;
     color: #333;
 }
-
 a:hover, a:active, a:focus {
     text-decoration: underline;
 }
@@ -54,7 +46,6 @@ a:hover, a:active, a:focus {
     body {
         align-items: center;
     }
-
     h1, li {
         font-size: 3rem;
     }
@@ -64,11 +55,9 @@ a:hover, a:active, a:focus {
     main {
         display: flex;
     }
-
     div {
         margin: 0 15px;
     }
-
     img {
         margin-top: 10px;
     }
@@ -78,17 +67,14 @@ a:hover, a:active, a:focus {
     div {
         margin: 0 20px;
     }
-
     img {
         height: 250px;
         width: 250px;
         margin-top: 20px;
     }
-
     h1, li {
         font-size: 5rem;
     }
-
     a {
         margin-top: 3.5rem;
     }
