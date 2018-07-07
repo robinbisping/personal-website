@@ -11,7 +11,7 @@ body {
     color: #333;
 }
 main {
-    padding: 10px;
+    padding: 15px;
 }
 ul {
     margin: 0;
@@ -34,7 +34,8 @@ li {
 }
 a {
     display: inline-block;
-    margin-top: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 15px;
     text-decoration: none;
     color: #333;
 }
@@ -48,6 +49,9 @@ a:hover, a:active, a:focus {
     }
     h1, li {
         font-size: 3rem;
+    }
+    a {
+        margin-bottom: 0;
     }
 }
 
