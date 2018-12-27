@@ -1,0 +1,24 @@
+$breakpoint-small: 500px;
+$breakpoint-medium: 1000px;
+$breakpoint-large: 1500px;
+
+// Small devices
+@mixin small {
+  @media (min-width: #{$breakpoint-small}) {
+    @content;
+  }
+}
+
+// Medium devices
+@mixin medium {
+  @media (min-width: #{$breakpoint-medium}) {
+    @content;
+  }
+}
+
+// Large devices
+@mixin large {
+  @media (min-width: #{$breakpoint-large}) {
+    @content;
+  }
+}

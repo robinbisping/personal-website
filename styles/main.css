@@ -1,85 +1,99 @@
-html, body {
-    height: 100%;
-    margin: 0;
+html,
+body,
+h1,
+h2,
+p {
+  margin: 0;
+  padding: 0;
 }
+
+html, body {
+  box-sizing: border-box;
+  height: 100%;
+}
+
 body {
+  padding: 1rem;
+  background-color: #f7f7f7;
+}
+@media (min-width: 1000px) {
+  body {
     display: flex;
     justify-content: center;
-    background-color: #eee;
-    font-family: serif;
-    line-height: 1.2;
-    color: #333;
+    align-items: center;
+  }
 }
+
 main {
-    padding: 15px;
+  display: grid;
+  grid-gap: 1em;
+  margin-bottom: 1rem;
 }
-ul {
-    margin: 0;
-    padding: 0;
+@media (min-width: 1000px) {
+  main {
+    width: 1000px;
+    grid-template-columns: min-content auto;
+    grid-gap: 2em;
+  }
 }
+@media (min-width: 1500px) {
+  main {
+    width: 1500px;
+    grid-gap: 3em;
+  }
+}
+
 img {
-    height: 200px;
-    width: 200px;
-    margin-bottom: 1rem;
+  width: 100%;
+  max-width: 400px;
 }
+@media (min-width: 1000px) {
+  img {
+    width: 350px;
+  }
+}
+@media (min-width: 1500px) {
+  img {
+    width: 400px;
+  }
+}
+
+body {
+  font-family: serif;
+  font-size: 1.5rem;
+  line-height: 1.2;
+  color: black;
+}
+
 h1 {
-    margin: 0;
-    font-size: 2rem;
+  white-space: nowrap;
+  font-size: 2em;
 }
-li {
-    margin-top: .75rem;
-    list-style: none;
-    font-size: 2rem;
-    color: #aaa;
-}
+
 a {
-    display: inline-block;
-    margin-top: 1rem;
-    margin-bottom: 15px;
-    text-decoration: none;
-    color: #333;
+  color: black;
 }
+
 a:hover, a:active, a:focus {
-    text-decoration: underline;
+  color: gray;
 }
 
-@media (min-width: 600px) {
-    body {
-        align-items: center;
-    }
-    h1, li {
-        font-size: 3rem;
-    }
-    a {
-        margin-bottom: 0;
-    }
+#description p {
+  font-size: 1.5em;
+}
+@media (min-width: 1000px) {
+  #description p {
+    margin-top: -0.25em;
+    font-size: 2.5em;
+  }
+}
+@media (min-width: 1500px) {
+  #description p {
+    font-size: 3em;
+  }
+}
+#description em {
+  color: #d11d5f;
 }
 
-@media (min-width: 900px) {
-    main {
-        display: flex;
-    }
-    div {
-        margin: 0 15px;
-    }
-    img {
-        margin-top: 10px;
-    }
-}
-
-@media (min-width: 1400px) {
-    div {
-        margin: 0 20px;
-    }
-    img {
-        height: 250px;
-        width: 250px;
-        margin-top: 20px;
-    }
-    h1, li {
-        font-size: 5rem;
-    }
-    a {
-        margin-top: 3.5rem;
-    }
-}
+/*# sourceMappingURL=main.css.map */

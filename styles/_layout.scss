@@ -1,0 +1,43 @@
+@import "variables/media_queries";
+@import "variables/colours";
+
+body {
+  padding: 1rem;
+  background-color: $background-color;
+
+  @include medium {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+main {
+  display: grid;
+  grid-gap: 1em;
+  margin-bottom: 1rem;
+
+  @include medium {
+    width: $breakpoint-medium;
+    grid-template-columns: min-content auto;
+    grid-gap: 2em;
+  }
+
+  @include large {
+    width: $breakpoint-large;
+    grid-gap: 3em;
+  }
+}
+
+img {
+  width: 100%;
+  max-width: 400px;
+
+  @include medium {
+    width: 350px;
+  }
+
+  @include large {
+    width: 400px;
+  }
+}
