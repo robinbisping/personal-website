@@ -1,0 +1,9 @@
+www.robinbisping.com {
+    errors error.log
+    gzip
+    log access.log
+}
+
+robinbisping.com {
+    redir https://www.robinbisping.com{uri}
+}
