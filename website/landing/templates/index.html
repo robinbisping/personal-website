@@ -1,11 +1,7 @@
 {% load static %}
-{% load i18n %}
-
-{% get_current_language as LANGUAGE_CODE %}
-{% get_available_languages as LANGUAGES %}
 
 <!DOCTYPE html>
-<html lang="{{ LANGUAGE_CODE }}">
+<html lang="{{ language }}">
 
 <head>
     <meta charset="utf-8">
@@ -19,18 +15,18 @@
 <body>
 
 <nav>
-    {% for language_code, language in LANGUAGES %}
-        {% if language_code == LANGUAGE_CODE %}
-            <span>{{ language }}</span>
+    {% for lang_code, lang in languages %}
+        {% if lang_code == language %}
+            <span>{{ lang }}</span>
         {% else %}
-            <a href="{% url 'home' language_code %}">{{ language }}</a>
+            <a href="{% url 'home' lang_code %}">{{ lang }}</a>
         {% endif %}
     {% endfor %}
 </nav>
 
 <main>
     <div id="about">
-        <img src="{% static 'robinbisping.jpg' %}" alt="{% trans "Portrait of Robin Bisping" %}">
+        <img src="{% static 'robinbisping.jpg' %}" alt="Portrait of Robin Bisping">
         <h1>Robin Bisping</h1>
         <p>
             <a href="mailto:contact@robinbisping.com">contact@robinbisping.com</a>
@@ -38,10 +34,13 @@
     </div>
     <div id="description">
         <p>
-            {% blocktrans trimmed %}
+            {% if language == 'en' %}
                 I am a <em>computer science student</em>, who is interested in technology and journalism.
                 I <em>build websites</em> and <em>develop applications</em>.
-            {% endblocktrans %}
+            {% elif language == 'de' %}
+                Ich studiere <em>Informatik</em> und interessiere mich für Technologie und Journalismus.
+                Ich <em>erstelle Webseiten</em> und <em>entwickle Applikationen</em>.
+            {% endif %}
         </p>
     </div>
 </main>

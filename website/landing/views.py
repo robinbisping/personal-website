@@ -1,18 +1,29 @@
 from django.conf import settings
-from django.shortcuts import render, HttpResponse
-from django.utils import translation
+from django.http import Http404
+from django.shortcuts import render
 
 
 def home(request, language=None):
-
-    # Let browser choose language
+    """
+    Homepage
+    """
+    # Let browser choose language if none is given
     if language is None:
-        return render(request, 'index.html')
+        return home(request, request.META['HTTP_ACCEPT_LANGUAGE'])
 
-    # Activate language if it exists
-    if language in [element[0] for element in settings.LANGUAGES]:
-        translation.activate(language)
-        return render(request, 'index.html')
+    # Available languages
+    languages = [
+        ('de', 'Deutsch'),
+        ('en', 'English'),
+    ]
 
-    # Language not found, return 404 error
-    return HttpResponse(status=404)
+    # Render template if the language is defined
+    if language in [lang[0] for lang in languages]:
+        context = {
+            'language': language,
+            'languages': languages
+        }
+        return render(request, 'index.html', context=context)
+
+    # Language not found
+    raise Http404
