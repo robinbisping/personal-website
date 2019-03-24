@@ -1,4 +1,3 @@
-from django.conf import settings
 from django.http import Http404
 from django.shortcuts import render
 
@@ -21,7 +20,7 @@ def home(request, language=None):
     if language in [lang[0] for lang in languages]:
         context = {
             'language': language,
-            'languages': languages
+            'languages': languages,
         }
         return render(request, 'index.html', context=context)
 

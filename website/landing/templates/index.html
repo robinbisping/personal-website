@@ -26,20 +26,26 @@
 
 <main>
     <div id="about">
-        <img src="{% static 'robinbisping.jpg' %}" alt="Portrait of Robin Bisping">
+        {% if language == 'en' %}
+            <img src="{% static 'robinbisping.jpg' %}" alt="Portrait of Robin Bisping">
+        {% elif language == 'de' %}
+            <img src="{% static 'robinbisping.jpg' %}" alt="Porträt von Robin Bisping">
+        {% endif %}
         <h1>Robin Bisping</h1>
         <p>
-            <a href="mailto:contact@robinbisping.com">contact@robinbisping.com</a>
+            {% if language == 'en' %}
+                <a href="mailto:contact@robinbisping.com">contact@robinbisping.com</a>
+            {% elif language == 'de' %}
+                <a href="mailto:kontakt@robinbisping.com">kontakt@robinbisping.com</a>
+            {% endif %}
         </p>
     </div>
     <div id="description">
         <p>
             {% if language == 'en' %}
-                I am a <em>computer science student</em>, who is interested in technology and journalism.
-                I <em>build websites</em> and <em>develop applications</em>.
+                I design <em>websites</em> and develop <em>applications</em>.
             {% elif language == 'de' %}
-                Ich studiere <em>Informatik</em> und interessiere mich für Technologie und Journalismus.
-                Ich <em>erstelle Webseiten</em> und <em>entwickle Applikationen</em>.
+                Ich gestalte <em>Webseiten</em> und entwickle <em>Applikationen</em>.
             {% endif %}
         </p>
     </div>
