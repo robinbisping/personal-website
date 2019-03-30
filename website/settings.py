@@ -1,12 +1,19 @@
 import os
+from environ import Env, Path
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-SECRET_KEY = os.environ.get('SECRET', '')
+# Environment variables
+env = Env(
+    DEBUG=(bool, False)
+)
+env.read_env(BASE_DIR + '/.env')
 
-DEBUG = os.environ.get('DEBUG', 'false')
+SECRET_KEY = env('SECRET')
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'robinbisping.com', 'www.robinbisping.com']
+DEBUG = env('DEBUG')
+
+ALLOWED_HOSTS = ['robinbisping.com', 'www.robinbisping.com', 'localhost', '127.0.0.1']
 
 INSTALLED_APPS = [
     'website.landing',
