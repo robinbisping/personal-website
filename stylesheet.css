@@ -1,0 +1,49 @@
+:root {
+    --text-colour: #000;
+    --background-colour: #F7F7F7;
+}
+
+html, body, h1 {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+body {
+    padding: 1rem;
+    background-color: var(--background-colour);
+    font-family: serif;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    color: var(--text-colour);
+}
+
+h1 {
+    white-space: nowrap;
+    font-size: 2em;
+}
+
+a {
+    color: var(--text-colour);
+}
+
+a:hover, a:active, a:focus {
+    filter: invert(0.25);
+}
+
+
+@media (min-width: 1000px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main {
+        width: 1000px;
+    }
+}
